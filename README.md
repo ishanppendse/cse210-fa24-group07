@@ -6,12 +6,14 @@ Navigate to the application folder -
 Use npm install 
 ## Running the application
 npm run start-dev
+## Building the application executable for current platform
+npm run make
 ## Building the application executable for MacOS
-npm run make -- --platform darwin 
+npm run make --platform darwin 
 ## Building the application executable for Windows
-npm run make -- --platform win32
+npm run make --platform win32
 ## Building the application executable for Linux
-npm run make -- --platform linux
+npm run make --platform linux
 ## Using JSDocs for documentation
 The JSDoc command-line tool is available in
 `./node_modules/.bin`. To generate documentation for the file
@@ -27,4 +29,4 @@ By default, the generated documentation is saved in a directory named `out`. You
 
 ## Global shortcut
 
-When the app is running, press `Ctrl+Meta+T` to show the app.
+When the app is running, press `Ctrl+Alt+T`(on Windows) or `Command+Alt+T`(on Mac) to show the app .
